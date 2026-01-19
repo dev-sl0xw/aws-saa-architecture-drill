@@ -14,7 +14,7 @@
 
 ## Tasks
 
-- [ ] 1. 프로젝트 구조 및 데이터 모델 설정
+- [-] 1. 프로젝트 구조 및 데이터 모델 설정
   - Python 프로젝트 디렉토리 구조 생성 (src/, tests/, templates/, output/)
   - 데이터 모델 클래스 정의 (Syllabus, Week, Day, DailyContent 등)
   - Pydantic을 사용한 데이터 검증 모델 구현

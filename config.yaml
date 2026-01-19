@@ -1,0 +1,45 @@
+# AWS SAA-C03 30일 커리큘럼 시스템 설정
+
+# 기본 설정
+language: ko
+target_exam: SAA-C03
+duration: 30
+
+# AWS 설정
+free_tier_only: true
+default_instance_type: t2.micro
+ec2_access_method: ssm-session-manager
+
+# 개발 도구 설정
+cicd_tool: github-actions
+container_tool: docker
+notification_tool: slack
+
+# CDK 설정
+cdk_languages:
+  - typescript
+  - python
+default_cdk_language: typescript
+
+# 콘텐츠 생성 설정
+include_architecture_diagrams: true
+include_quizzes: true
+include_verification_tests: true
+
+# 학습자 프로필 (약점 영역)
+# Week 1-2에 우선 배치될 주제들
+weak_areas:
+  - Networking
+  - Database
+  - Storage
+  - Governance
+
+# 출력 설정
+output_directory: output
+template_directory: templates
+
+# 실러버스 구조
+# Week 1: Cloud Operations Foundation & Core Networking
+# Week 2: Storage & Database Foundations
+# Week 3: Compute & Governance
+# Week 4: Integration & Advanced Scenarios
